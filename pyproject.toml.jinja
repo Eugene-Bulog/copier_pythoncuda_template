@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "{{ project_name }}"
-version = "0.1.0"  
+version = "0.1.0"
 description = ""
 readme = "README.md"
 authors = [
-  {name = "Eugene Bulog"} 
+  {name = "Eugene Bulog"}
 ]
 maintainers = [
   {name = "Eugene Bulog"}
@@ -24,6 +24,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
   "pre-commit",
+  "copier"
 ]
 
 [project.urls]
